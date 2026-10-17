@@ -1,4 +1,5 @@
 cff-version: 1.2.0
+doi: "10.5281/zenodo.23436839"
 message: "If you use this archive, please cite both the archive and the paper it supports."
 title: "HER2+ BCBM CNS-reachability-aware target prioritization: analysis archive"
 version: 1.0.0
