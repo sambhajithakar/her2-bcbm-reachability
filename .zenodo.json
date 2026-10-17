@@ -1,0 +1,38 @@
+{
+  "title": "Machine-Learning-Assisted, CNS-Reachability-Aware Prioritization of Therapeutic Targets in HER2-Positive Breast Cancer Brain Metastasis: analysis code, nomination census and scoring outputs",
+  "upload_type": "software",
+  "description": "<p>Complete analysis archive for the manuscript \"Machine-Learning-Assisted, CNS-Reachability-Aware Prioritization of Therapeutic Targets in HER2-Positive Breast Cancer Brain Metastasis: A Replication Census and Two-Axis Evidence Map\" (submitted to the <em>Journal of the American Medical Informatics Association</em>, Research and Applications).</p><p>Contains the Snakemake pipeline and its conda environment, the nomination census of therapeutic-target nominations for breast cancer brain metastasis, the target-modality-agent table, the target-collapsing maps, every scoring output and log, the five manuscript figures at 300 dpi, and the study protocol with its dated deviations log. Every number reported in the manuscript is reproducible from this archive with a single command: <code>snakemake --cores 1 --use-conda</code>.</p><p>The archive is self-contained. It bundles the B3DB blood-brain barrier dataset (Meng et al., <em>Scientific Data</em> 2021, doi:10.1038/s41597-021-01069-5), which is released under CC0. Chemical structures were retrieved from ChEMBL on 17 October 2026 and the retrieved identifiers and SMILES are included.</p><p>No new human-subjects data are included. No controlled-access data are included.</p>",
+  "creators": [
+    {
+      "name": "Thakar, Sambhaji Balaso",
+      "affiliation": "Advanced Bioinformatics, Data Science and Generative AI Unit, Aditya BioNova Analytics, Kolhapur, Maharashtra, India",
+      "orcid": "0000-0002-0423-2015"
+    },
+    {
+      "name": "Ghorpade, Pradnya Namdev",
+      "affiliation": "Oncology Clinical Trial Analytics & Research Unit, Aditya BioNova Analytics, Kolhapur, Maharashtra, India",
+      "orcid": "0000-0001-6593-825X"
+    }
+  ],
+  "keywords": [
+    "breast cancer brain metastasis",
+    "HER2",
+    "therapeutic target prioritization",
+    "blood-brain barrier",
+    "CNS drug delivery",
+    "reproducible research",
+    "Snakemake"
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-021-01069-5",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ]
+}

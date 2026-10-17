@@ -1,0 +1,43 @@
+target,agent,modality,compartment,t1_evidence,t1_source,t1_note
+ERBB2,tucatinib,small-molecule,tumour-intrinsic,intracranial-rct,"Lin 2020 JCO PMID 32468955","HER2CLIMB: intracranial ORR 47.3% vs 20.0%; CNS-PFS 9.9 vs 4.2 months; HR 0.32"
+ERBB2,trastuzumab-deruxtecan,ADC,tumour-intrinsic,intracranial-clinical,"Zhang 2026 Cancer Metastasis Rev PMID 42262659","intracranial responses in active CNS disease across DESTINY-Breast12, DEBBRAH, TUXEDO-3"
+ERBB2,poziotinib,small-molecule,tumour-intrinsic,in-vivo-intracranial,"Ippolitov 2024 bioRxiv 10.1101/2024.02.19.581073","MRI intracranial remission in patient-derived HER2+ BCBM model"
+ERBB2,lapatinib,small-molecule,tumour-intrinsic,in-vivo-no-intracranial-response,"Ippolitov 2024 bioRxiv 10.1101/2024.02.19.581073","no intracranial remission in the same model in which poziotinib succeeded; also BBB-negative in B3DB"
+ERBB2,trastuzumab,naked-mAb,tumour-intrinsic,class-prior-low,"modality prior","low CNS exposure absent barrier disruption; tumour-intrinsic compartment so the prior applies"
+ERBB2,neratinib,small-molecule,tumour-intrinsic,none,,
+PIK3CA,alpelisib,small-molecule,tumour-intrinsic,none,,
+PIK3CA,paxalisib,small-molecule,tumour-intrinsic,none,,"designed as brain-penetrant; NOT verified in this session, left to tiered lookup"
+MTOR,everolimus,small-molecule,tumour-intrinsic,none,,
+MTOR,temsirolimus,small-molecule,tumour-intrinsic,none,,
+PTEN,capivasertib,small-molecule,tumour-intrinsic,none,,"AKT inhibitor route for PTEN loss"
+PTEN,niraparib,small-molecule,tumour-intrinsic,clinical-pk-not-efflux-limited,"Kim 2023 Neurooncol Adv PMID 37706203","reported unaffected by the major barrier efflux transporters ABCB1/ABCG2; synergistic with TOP1 inhibition in PTEN-deficient cells"
+CDK4/6,palbociclib,small-molecule,tumour-intrinsic,clinical-pk-efflux-limited,"Groenland 2020 Clin Pharmacokinet PMID 33029704","brain penetration limited by efflux transporters"
+CDK4/6,ribociclib,small-molecule,tumour-intrinsic,clinical-pk-efflux-limited,"Groenland 2020 Clin Pharmacokinet PMID 33029704","brain penetration limited by efflux transporters"
+CDK4/6,abemaciclib,small-molecule,tumour-intrinsic,clinical-pk-efflux-limited,"Groenland 2020 Clin Pharmacokinet PMID 33029704","brain penetration limited by efflux transporters"
+HRR/PARP,niraparib,small-molecule,tumour-intrinsic,clinical-pk-not-efflux-limited,"Kim 2023 Neurooncol Adv PMID 37706203","unaffected by ABCB1/ABCG2"
+HRR/PARP,olaparib,small-molecule,tumour-intrinsic,none,,
+HRR/PARP,talazoparib,small-molecule,tumour-intrinsic,none,,"B3DB classification expected to resolve this one at Tier 2"
+MEK/ERK,trametinib,small-molecule,tumour-intrinsic,none,,
+MEK/ERK,selumetinib,small-molecule,tumour-intrinsic,none,,
+AXL,bemcentinib,small-molecule,tumour-intrinsic,none,,
+RET,selpercatinib,small-molecule,tumour-intrinsic,none,,"CNS activity reported in the literature but NOT verified in this session"
+IL34/CSF1R,anti-CSF1R-mAb,naked-mAb,myeloid-stromal,in-vivo-intracranial,"Cheng 2025 bioRxiv 10.1101/2025.06.17.660224","antibody shrank intracranial tumours in an immunocompetent HER2+ cerebellar metastasis model; target cells sit at the invading edge, so the naked-mAb prior does not apply"
+RAB11B/ITGB1,simvastatin,small-molecule,tumour-intrinsic,none,,"lipophilic statin deliberately chosen by Howe 2020"
+RAB11B/ITGB1,atorvastatin,small-molecule,tumour-intrinsic,none,,
+RAB11B/ITGB1,rosuvastatin,small-molecule,tumour-intrinsic,none,,"hydrophilic comparator; B3DB holds contradictory records for this one"
+ADAM22/LGI1,LGI1MIM-peptide,peptide,tumour-intrinsic,barrier-model-assessed,"Charmsaz 2020 BMC Med PMID 33208158","BBB penetration assessed in 3D biohybrid barrier models; not a clinical PK measurement"
+PD-L1/PD-1 spatial,pembrolizumab,naked-mAb,immune,class-prior-low,"modality prior","checkpoint mAb; low CNS exposure, though intracranial ICI activity is reported"
+CD8-TRM/TLS,pembrolizumab,naked-mAb,immune,class-prior-low,"modality prior","checkpoint mAb"
+TROP2/HER3/B7-H3,sacituzumab-govitecan,ADC,tumour-intrinsic,none,,
+TROP2/HER3/B7-H3,patritumab-deruxtecan,ADC,tumour-intrinsic,none,,
+TGFB1 macrophage axis,galunisertib,small-molecule,myeloid-stromal,none,,
+FABP7,none-available,none,tumour-intrinsic,no-clinical-agent,"Cordero 2019 Oncogene PMID 31324889","no clinical-grade inhibitor; good biology, poor druggability"
+ILF2,none-available,none,tumour-intrinsic,no-clinical-agent,,
+GABRB3/NRXN1,none-available,none,tumour-intrinsic,no-clinical-agent,,
+ASCL2,none-available,none,tumour-intrinsic,no-clinical-agent,,"transcription factor"
+NDUFB9,none-available,none,tumour-intrinsic,no-clinical-agent,,
+VCAN,none-available,none,ECM,no-clinical-agent,,
+GRAMD1A,none-available,none,tumour-intrinsic,no-clinical-agent,,
+IL18/MYLK,none-available,none,tumour-intrinsic,no-clinical-agent,,
+ERBB3/NRG1,poziotinib,small-molecule,tumour-intrinsic,in-vivo-intracranial,"Ippolitov 2024 bioRxiv 10.1101/2024.02.19.581073","the agent that actually worked against this resistance route in vivo; same evidence as the ERBB2 row, listed here because the nomination is ErbB3/NRG1"
+ERBB3/NRG1,lapatinib,small-molecule,tumour-intrinsic,in-vivo-no-intracranial-response,"Ippolitov 2024 bioRxiv 10.1101/2024.02.19.581073","the agent the resistance route defeats"

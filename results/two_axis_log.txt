@@ -1,0 +1,38 @@
+nodes on the map: 23  (with a scored agent: 9, unresolved: 14)
+tier distribution: {'A': 2, 'B': 11, 'C': 10}
+HER2-stratified somewhere: 6 of 23
+
+Pareto front (point estimate), with bootstrap membership frequency:
+      node tier  n_cohorts  n_modalities  reach     best_agent           provenance  pareto_frequency
+ PI3K-MTOR    A          3             6   0.65   temsirolimus       classified-BBB            0.7380
+ERBB3-NRG1    B          1             2   0.80     poziotinib in-vivo-intracranial            0.4015
+IL34-CSF1R    B          1             1   0.80 anti-CSF1R-mAb in-vivo-intracranial            0.3940
+
+All nodes with a scored agent:
+        node tier  n_cohorts  n_modalities  reach      best_agent           provenance  pareto_frequency  on_pareto_front
+   PI3K-MTOR    A          3             6   0.65    temsirolimus       classified-BBB            0.7380             True
+      CDK4-6    A          2             5   0.35     palbociclib          clinical-PK            0.1330            False
+  ERBB3-NRG1    B          1             2   0.80      poziotinib in-vivo-intracranial            0.4015             True
+  IL34-CSF1R    B          1             1   0.80  anti-CSF1R-mAb in-vivo-intracranial            0.3940             True
+    HRD-PARP    B          2             2   0.65       niraparib          clinical-PK            0.0630            False
+ ADAM22-LGI1    B          1             3   0.50 LGI1MIM-peptide        barrier-model            0.0160            False
+RAB11B-ITGB1    B          1             4   0.50     simvastatin       measured-logBB            0.0090            False
+        PTEN    C          1             1   0.65       niraparib          clinical-PK            0.0415            False
+     MEK-ERK    C          1             1   0.20      trametinib       classified-BBB            0.0000            False
+
+Nodes with no agent resolvable at any evidence tier (reported, never imputed):
+                 node tier  n_agents            best_agent
+                  AXL    B         1           bemcentinib
+                FABP7    B         1        none-available
+         GABRB3-NRXN1    B         1        none-available
+                 ILF2    B         1        none-available
+    IMMUNE-CHECKPOINT    B         2         pembrolizumab
+               NDUFB9    B         1        none-available
+         ADC-ANTIGENS    C         2 sacituzumab-govitecan
+                ASCL2    C         1        none-available
+ESR1-ERBB2-RESISTANCE    C         0       none-identified
+              GRAMD1A    C         1        none-available
+            IL18-MYLK    C         1        none-available
+                  RET    C         1         selpercatinib
+     TGFB1-MACROPHAGE    C         1          galunisertib
+                 VCAN    C         1        none-available

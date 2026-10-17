@@ -1,0 +1,43 @@
+target,agent,modality,compartment,category,score,lo,hi,provenance,evidence_tier,detail,source
+ERBB2,tucatinib,small-molecule,tumour-intrinsic,High,0.8,0.7200000000000001,0.88,clinical-RCT,1,HER2CLIMB: intracranial ORR 47.3% vs 20.0%; CNS-PFS 9.9 vs 4.2 months; HR 0.32,Lin 2020 JCO PMID 32468955
+ERBB2,trastuzumab-deruxtecan,ADC,tumour-intrinsic,High,0.8,0.7000000000000001,0.9,clinical-PK,1,"intracranial responses in active CNS disease across DESTINY-Breast12, DEBBRAH, TUXEDO-3",Zhang 2026 Cancer Metastasis Rev PMID 42262659
+ERBB2,poziotinib,small-molecule,tumour-intrinsic,High,0.8,0.68,0.92,in-vivo-intracranial,1,MRI intracranial remission in patient-derived HER2+ BCBM model,Ippolitov 2024 bioRxiv 10.1101/2024.02.19.581073
+ERBB2,lapatinib,small-molecule,tumour-intrinsic,Low,0.2,0.08000000000000002,0.32,in-vivo-intracranial,1,no intracranial remission in the same model in which poziotinib succeeded; also BBB-negative in B3DB,Ippolitov 2024 bioRxiv 10.1101/2024.02.19.581073
+ERBB2,trastuzumab,naked-mAb,tumour-intrinsic,Low,0.2,0.0,0.45,inferred-by-class,1,"modality prior, tumour-intrinsic compartment",modality prior
+ERBB2,neratinib,small-molecule,tumour-intrinsic,predicted,0.322,0.022,0.622,predicted,3,P(BBB+) = 0.322 from 7 descriptors [CHEMBL180022],
+PIK3CA,alpelisib,small-molecule,tumour-intrinsic,Low,0.2,0.0,0.4,classified-BBB,2,"B3DB BBB- (n=1) [structural match, CHEMBL2396661]",
+PIK3CA,paxalisib,small-molecule,tumour-intrinsic,predicted,0.516,0.216,0.816,predicted,3,P(BBB+) = 0.516 from 7 descriptors [CHEMBL3813842],
+MTOR,everolimus,small-molecule,tumour-intrinsic,Medium-High,0.65,0.45,0.85,classified-BBB,2,"B3DB BBB+ (n=1) [structural match, CHEMBL1908360]",
+MTOR,temsirolimus,small-molecule,tumour-intrinsic,Medium-High,0.65,0.45,0.85,classified-BBB,2,"B3DB BBB+ (n=1) [structural match, CHEMBL1201182]",
+PTEN,capivasertib,small-molecule,tumour-intrinsic,predicted,0.34,0.04,0.64,predicted,3,P(BBB+) = 0.340 from 7 descriptors [CHEMBL2325741],
+PTEN,niraparib,small-molecule,tumour-intrinsic,Medium-High,0.65,0.55,0.75,clinical-PK,1,reported unaffected by the major barrier efflux transporters ABCB1/ABCG2; synergistic with TOP1 inhibition in PTEN-deficient cells,Kim 2023 Neurooncol Adv PMID 37706203
+CDK4/6,palbociclib,small-molecule,tumour-intrinsic,Low-Medium,0.35,0.24999999999999997,0.44999999999999996,clinical-PK,1,brain penetration limited by efflux transporters,Groenland 2020 Clin Pharmacokinet PMID 33029704
+CDK4/6,ribociclib,small-molecule,tumour-intrinsic,Low-Medium,0.35,0.24999999999999997,0.44999999999999996,clinical-PK,1,brain penetration limited by efflux transporters,Groenland 2020 Clin Pharmacokinet PMID 33029704
+CDK4/6,abemaciclib,small-molecule,tumour-intrinsic,Low-Medium,0.35,0.24999999999999997,0.44999999999999996,clinical-PK,1,brain penetration limited by efflux transporters,Groenland 2020 Clin Pharmacokinet PMID 33029704
+HRR/PARP,niraparib,small-molecule,tumour-intrinsic,Medium-High,0.65,0.55,0.75,clinical-PK,1,unaffected by ABCB1/ABCG2,Kim 2023 Neurooncol Adv PMID 37706203
+HRR/PARP,olaparib,small-molecule,tumour-intrinsic,predicted,0.55,0.25,0.85,predicted,3,P(BBB+) = 0.550 from 7 descriptors [CHEMBL521686],
+HRR/PARP,talazoparib,small-molecule,tumour-intrinsic,Low,0.2,0.0,0.4,classified-BBB,2,"B3DB BBB- (n=1) [structural match, CHEMBL3137318]",
+MEK/ERK,trametinib,small-molecule,tumour-intrinsic,Low,0.2,0.0,0.4,classified-BBB,2,"B3DB BBB- (n=1) [structural match, CHEMBL2103875]",
+MEK/ERK,selumetinib,small-molecule,tumour-intrinsic,predicted,0.456,0.156,0.756,predicted,3,P(BBB+) = 0.456 from 7 descriptors [CHEMBL1614701],
+AXL,bemcentinib,small-molecule,tumour-intrinsic,predicted,0.524,0.224,0.824,predicted,3,P(BBB+) = 0.524 from 7 descriptors [CHEMBL3809489],
+RET,selpercatinib,small-molecule,tumour-intrinsic,predicted,0.404,0.104,0.704,predicted,3,P(BBB+) = 0.404 from 7 descriptors [CHEMBL4559134],
+IL34/CSF1R,anti-CSF1R-mAb,naked-mAb,myeloid-stromal,High,0.8,0.68,0.92,in-vivo-intracranial,1,"antibody shrank intracranial tumours in an immunocompetent HER2+ cerebellar metastasis model; target cells sit at the invading edge, so the naked-mAb prior does not apply",Cheng 2025 bioRxiv 10.1101/2025.06.17.660224
+RAB11B/ITGB1,simvastatin,small-molecule,tumour-intrinsic,Medium,0.5,0.35,0.65,measured-logBB,2,"B3DB logBB n=1, mean -0.01",
+RAB11B/ITGB1,atorvastatin,small-molecule,tumour-intrinsic,Low,0.2,0.05,0.35,measured-logBB,2,"B3DB logBB n=1, mean -1.36 [structural match, CHEMBL393220]",
+RAB11B/ITGB1,rosuvastatin,small-molecule,tumour-intrinsic,Medium,0.5,0.05,0.95,conflicting,2,"B3DB holds both BBB+ and BBB- (n=3); not averaged [structural match, CHEMBL1496]",
+ADAM22/LGI1,LGI1MIM-peptide,peptide,tumour-intrinsic,Medium,0.5,0.32,0.6799999999999999,barrier-model,1,BBB penetration assessed in 3D biohybrid barrier models; not a clinical PK measurement,Charmsaz 2020 BMC Med PMID 33208158
+PD-L1/PD-1 spatial,pembrolizumab,naked-mAb,immune,unknown,,,,unknown,0,"naked-mAb prior withheld: target compartment is immune, so the prior does not transfer",modality prior
+CD8-TRM/TLS,pembrolizumab,naked-mAb,immune,unknown,,,,unknown,0,"naked-mAb prior withheld: target compartment is immune, so the prior does not transfer",modality prior
+TROP2/HER3/B7-H3,sacituzumab-govitecan,ADC,tumour-intrinsic,unknown,,,,unknown,0,not resolved at Tier 1 or Tier 2; Tier 3 not run,
+TROP2/HER3/B7-H3,patritumab-deruxtecan,ADC,tumour-intrinsic,unknown,,,,unknown,0,not resolved at Tier 1 or Tier 2; Tier 3 not run,
+TGFB1 macrophage axis,galunisertib,small-molecule,myeloid-stromal,predicted,0.521,0.221,0.821,predicted,3,P(BBB+) = 0.521 from 7 descriptors [CHEMBL2364611],
+FABP7,none-available,none,tumour-intrinsic,unknown,,,,unknown,0,no clinical-grade agent exists for this target,Cordero 2019 Oncogene PMID 31324889
+ILF2,none-available,none,tumour-intrinsic,unknown,,,,unknown,0,no clinical-grade agent exists for this target,
+GABRB3/NRXN1,none-available,none,tumour-intrinsic,unknown,,,,unknown,0,no clinical-grade agent exists for this target,
+ASCL2,none-available,none,tumour-intrinsic,unknown,,,,unknown,0,no clinical-grade agent exists for this target,
+NDUFB9,none-available,none,tumour-intrinsic,unknown,,,,unknown,0,no clinical-grade agent exists for this target,
+VCAN,none-available,none,ECM,unknown,,,,unknown,0,no clinical-grade agent exists for this target,
+GRAMD1A,none-available,none,tumour-intrinsic,unknown,,,,unknown,0,no clinical-grade agent exists for this target,
+IL18/MYLK,none-available,none,tumour-intrinsic,unknown,,,,unknown,0,no clinical-grade agent exists for this target,
+ERBB3/NRG1,poziotinib,small-molecule,tumour-intrinsic,High,0.8,0.68,0.92,in-vivo-intracranial,1,"the agent that actually worked against this resistance route in vivo; same evidence as the ERBB2 row, listed here because the nomination is ErbB3/NRG1",Ippolitov 2024 bioRxiv 10.1101/2024.02.19.581073
+ERBB3/NRG1,lapatinib,small-molecule,tumour-intrinsic,Low,0.2,0.08000000000000002,0.32,in-vivo-intracranial,1,the agent the resistance route defeats,Ippolitov 2024 bioRxiv 10.1101/2024.02.19.581073

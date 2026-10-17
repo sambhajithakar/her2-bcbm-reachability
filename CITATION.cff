@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite both the archive and the paper it supports."
+title: "HER2+ BCBM CNS-reachability-aware target prioritization: analysis archive"
+version: 1.0.0
+date-released: "2026-10-17"
+license: MIT
+type: software
+authors:
+  - family-names: Thakar
+    given-names: Sambhaji Balaso
+    orcid: "https://orcid.org/0000-0002-0423-2015"
+    affiliation: "Aditya BioNova Analytics, Kolhapur, Maharashtra, India"
+  - family-names: Ghorpade
+    given-names: Pradnya Namdev
+    orcid: "https://orcid.org/0000-0001-6593-825X"
+    affiliation: "Aditya BioNova Analytics, Kolhapur, Maharashtra, India"

@@ -1,0 +1,38 @@
+nodes on the map: 23  (with a scored agent: 12, unresolved: 11)
+tier distribution: {'A': 2, 'B': 11, 'C': 10}
+HER2-stratified somewhere: 6 of 23
+
+Pareto front (point estimate), with bootstrap membership frequency:
+      node tier  n_cohorts  n_modalities  reach     best_agent           provenance  pareto_frequency
+ PI3K-MTOR    A          3             6   0.65     everolimus       classified-BBB            0.7310
+ERBB3-NRG1    B          1             2   0.80     poziotinib in-vivo-intracranial            0.3595
+IL34-CSF1R    B          1             1   0.80 anti-CSF1R-mAb in-vivo-intracranial            0.3880
+
+All nodes with a scored agent:
+            node tier  n_cohorts  n_modalities  reach      best_agent           provenance  pareto_frequency  on_pareto_front
+       PI3K-MTOR    A          3             6  0.650      everolimus       classified-BBB            0.7310             True
+          CDK4-6    A          2             5  0.350     palbociclib          clinical-PK            0.1320            False
+      ERBB3-NRG1    B          1             2  0.800      poziotinib in-vivo-intracranial            0.3595             True
+      IL34-CSF1R    B          1             1  0.800  anti-CSF1R-mAb in-vivo-intracranial            0.3880             True
+        HRD-PARP    B          2             2  0.650       niraparib          clinical-PK            0.0500            False
+             AXL    B          1             2  0.524     bemcentinib            predicted            0.0545            False
+     ADAM22-LGI1    B          1             3  0.500 LGI1MIM-peptide        barrier-model            0.0090            False
+    RAB11B-ITGB1    B          1             4  0.500     simvastatin       measured-logBB            0.0100            False
+            PTEN    C          1             1  0.650       niraparib          clinical-PK            0.0240            False
+TGFB1-MACROPHAGE    C          1             2  0.521    galunisertib            predicted            0.0330            False
+         MEK-ERK    C          1             1  0.456     selumetinib            predicted            0.0100            False
+             RET    C          1             1  0.404   selpercatinib            predicted            0.0020            False
+
+Nodes with no agent resolvable at any evidence tier (reported, never imputed):
+                 node tier  n_agents            best_agent
+                FABP7    B         1        none-available
+         GABRB3-NRXN1    B         1        none-available
+                 ILF2    B         1        none-available
+    IMMUNE-CHECKPOINT    B         2         pembrolizumab
+               NDUFB9    B         1        none-available
+         ADC-ANTIGENS    C         2 sacituzumab-govitecan
+                ASCL2    C         1        none-available
+ESR1-ERBB2-RESISTANCE    C         0       none-identified
+              GRAMD1A    C         1        none-available
+            IL18-MYLK    C         1        none-available
+                 VCAN    C         1        none-available

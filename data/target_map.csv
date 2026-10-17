@@ -1,0 +1,31 @@
+census_target,canonical_target,collapse_note
+PI3K+mTOR,PI3K-MTOR,"Ni 2016 nominated the combination; collapsed onto the pathway node so that convergence with Yang 2026 mTOR is testable"
+mTOR,PI3K-MTOR,"Yang 2026 BrMS3 subtype; same pathway node"
+PIK3CA,PI3K-MTOR,"activating hotspot in the same pathway; collapsed, which RAISES this node's apparent convergence - declared, not hidden"
+PTEN,PTEN,
+ERBB3/NRG1,ERBB3-NRG1,"kept separate from ERBB2: the nomination is the resistance route, not the receptor"
+IL34/CSF1R,IL34-CSF1R,
+CDK4/6,CDK4-6,
+HRR/PARP,HRD-PARP,"Griguolo 2026 HRR alterations"
+HRD/PARP,HRD-PARP,"Diossy 2018 HRD scores; different measurement of the same vulnerability, which is what Axis 1 is meant to detect"
+MEK/ERK,MEK-ERK,
+CD8-TRM/TLS,IMMUNE-CHECKPOINT,"both immune nodes collapsed; see note on PD-L1 row"
+PD-L1/PD-1 spatial,IMMUNE-CHECKPOINT,"collapsed with CD8-TRM/TLS as one checkpoint-axis node; arguable, and the sensitivity of the Pareto front to this choice is reported"
+TGFB1 macrophage axis,TGFB1-MACROPHAGE,
+AXL,AXL,
+IL18/MYLK,IL18-MYLK,
+NDUFB9,NDUFB9,
+RET,RET,
+MYC/DDR/cholesterol/OXPHOS,PATHWAY-LEVEL,"pathway-level, not a single target; excluded from the Pareto front"
+TROP2/HER3/B7-H3,ADC-ANTIGENS,
+THY1/NEU2/CD1B/DOCK2,THY1-PANEL,
+ESR1/ERBB2 resistance mutations,ESR1-ERBB2-RESISTANCE,
+ILF2,ILF2,
+ADAM22/LGI1,ADAM22-LGI1,
+RAB11B/ITGB1,RAB11B-ITGB1,
+GABRB3/NRXN1,GABRB3-NRXN1,
+VCAN,VCAN,
+ASCL2,ASCL2,
+GRAMD1A,GRAMD1A,
+brain-mimicry spatial signature,SPATIAL-SIGNATURE,"a signature, not a target; excluded from the Pareto front"
+FABP7,FABP7,

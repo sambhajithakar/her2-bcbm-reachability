@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2026 Sambhaji Balaso Thakar and Pradnya Namdev Ghorpade
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+THIRD-PARTY DATA INCLUDED IN THIS ARCHIVE
+
+data/b3db-raw/B3DB_classification.tsv
+data/b3db-raw/B3DB_regression.tsv
+
+    B3DB, a curated blood-brain barrier permeability database.
+    Meng F, Xi Y, Huang J, Ayers PW. A curated diverse molecular database of
+    blood-brain barrier permeability with chemical descriptors.
+    Sci Data. 2021;8(1):289. doi:10.1038/s41597-021-01069-5
+    Released under CC0 1.0 Universal (public domain dedication) and
+    redistributed here under those terms.
+
+data/structures.csv contains molecule identifiers and SMILES retrieved from
+ChEMBL on 17 October 2026. ChEMBL data are released under CC BY-SA 3.0.
+
+The MIT terms above apply to the code and to the data files authored by us
+(the nomination census, the agent table, the collapsing maps and the scoring
+outputs). If you would prefer the data files under CC BY 4.0 instead, say so
+on the Zenodo record; nothing in the archive depends on that choice.

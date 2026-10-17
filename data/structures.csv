@@ -1,0 +1,23 @@
+agent,chembl_id,smiles,retrieved,source
+neratinib,CHEMBL180022,CCOc1cc2ncc(C#N)c(Nc3ccc(OCc4ccccn4)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,2026-10-17,ChEMBL via compound_search
+paxalisib,CHEMBL3813842,CC1(C)OCCn2c1nc1c(N3CCOCC3)nc(-c3cnc(N)nc3)nc12,2026-10-17,ChEMBL via compound_search
+everolimus,CHEMBL1908360,CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](OCCO)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C,2026-10-17,ChEMBL via compound_search
+capivasertib,CHEMBL2325741,NC1(C(=O)N[C@@H](CCO)c2ccc(Cl)cc2)CCN(c2nc[nH]c3nccc2-3)CC1,2026-10-17,ChEMBL via compound_search
+olaparib,CHEMBL521686,O=C(c1cc(Cc2n[nH]c(=O)c3ccccc23)ccc1F)N1CCN(C(=O)C2CC2)CC1,2026-10-17,ChEMBL via compound_search
+selumetinib,CHEMBL1614701,Cn1cnc2c(F)c(Nc3ccc(Br)cc3Cl)c(C(=O)NOCCO)cc21,2026-10-17,ChEMBL via compound_search
+bemcentinib,CHEMBL3809489,Nc1nc(Nc2ccc3c(c2)CC[C@@H](N2CCCC2)CC3)nn1-c1cc2c(nn1)-c1ccccc1CCC2,2026-10-17,ChEMBL via compound_search
+selpercatinib,CHEMBL4559134,COc1ccc(CN2C3CC2CN(c2ccc(-c4cc(OCC(C)(C)O)cn5ncc(C#N)c45)cn2)C3)cn1,2026-10-17,ChEMBL via compound_search
+galunisertib,CHEMBL2364611,Cc1cccc(-c2nn3c(c2-c2ccnc4ccc(C(N)=O)cc24)CCC3)n1,2026-10-17,ChEMBL via compound_search
+abemaciclib,CHEMBL3301610,"CCN1CCN(Cc2ccc(Nc3ncc(F)c(-c4cc(F)c5nc(C)n(C(C)C)c5c4)n3)nc2)CC1",2026-10-17,ChEMBL via compound_search
+alpelisib,CHEMBL2396661,"Cc1nc(NC(=O)N2CCC[C@H]2C(N)=O)sc1-c1ccnc(C(C)(C)C(F)(F)F)c1",2026-10-17,ChEMBL via compound_search
+palbociclib,CHEMBL189963,"CC(=O)c1c(C)c2cnc(Nc3ccc(N4CCNCC4)cn3)nc2n(C2CCCC2)c1=O",2026-10-17,ChEMBL via compound_search
+ribociclib,CHEMBL3545110,"CN(C)C(=O)c1cc2cnc(Nc3ccc(N4CCNCC4)cn3)nc2n1C1CCCC1",2026-10-17,ChEMBL via compound_search
+tucatinib,CHEMBL3989868,"Cc1cc(Nc2ncnc3ccc(NC4=NC(C)(C)CO4)cc23)ccc1Oc1ccn2ncnc2c1",2026-10-17,ChEMBL via compound_search
+poziotinib,CHEMBL3545154,"C=CC(=O)N1CCC(Oc2cc3c(Nc4ccc(Cl)c(Cl)c4F)ncnc3cc2OC)CC1",2026-10-17,ChEMBL via compound_search
+lapatinib,CHEMBL554,"CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",2026-10-17,ChEMBL via compound_search
+niraparib,CHEMBL1094636,"NC(=O)c1cccc2cn(-c3ccc([C@@H]4CCCNC4)cc3)nc12",2026-10-17,ChEMBL via compound_search
+talazoparib,CHEMBL3137318,"Cc1ccc(S(=O)(=O)O)cc1.Cn1ncnc1[C@H]1c2n[nH]c(=O)c3cc(F)cc(c23)N[C@@H]1c1ccc(F)cc1",2026-10-17,ChEMBL via compound_search
+temsirolimus,CHEMBL1201182,"CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](OC(=O)C(C)(CO)CO)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C",2026-10-17,ChEMBL via compound_search
+trametinib,CHEMBL2103875,"CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1",2026-10-17,ChEMBL via compound_search
+atorvastatin,CHEMBL393220,"CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)[O-].CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)[O-].[Ca+2]",2026-10-17,ChEMBL via compound_search
+rosuvastatin,CHEMBL1496,"CC(C)c1nc(N(C)S(C)(=O)=O)nc(-c2ccc(F)cc2)c1/C=C/[C@@H](O)C[C@@H](O)CC(=O)O",2026-10-17,ChEMBL via compound_search

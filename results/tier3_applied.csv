@@ -1,0 +1,9 @@
+target,agent,modality,score,lo,hi,provenance,evidence_tier,chembl_id,inchikey,detail
+HRR/PARP,olaparib,small-molecule,0.546,0.246,0.846,predicted,3,CHEMBL521686,FDLYAMZZIXQODN-UHFFFAOYSA-N,"logistic regression on 7 descriptors, P(BBB+) = 0.546"
+AXL,bemcentinib,small-molecule,0.523,0.223,0.823,predicted,3,CHEMBL3809489,KXMZDGSRSGHMMK-VWLOTQADSA-N,"logistic regression on 7 descriptors, P(BBB+) = 0.523"
+PIK3CA,paxalisib,small-molecule,0.516,0.216,0.816,predicted,3,CHEMBL3813842,LGWACEZVCMBSKW-UHFFFAOYSA-N,"logistic regression on 7 descriptors, P(BBB+) = 0.516"
+TGFB1 macrophage axis,galunisertib,small-molecule,0.516,0.216,0.816,predicted,3,CHEMBL2364611,IVRXNBXKWIJUQB-UHFFFAOYSA-N,"logistic regression on 7 descriptors, P(BBB+) = 0.516"
+MEK/ERK,selumetinib,small-molecule,0.455,0.155,0.755,predicted,3,CHEMBL1614701,CYOHGALHFOKKQC-UHFFFAOYSA-N,"logistic regression on 7 descriptors, P(BBB+) = 0.455"
+RET,selpercatinib,small-molecule,0.403,0.103,0.703,predicted,3,CHEMBL4559134,XIIOFHFUYBLOLW-UHFFFAOYSA-N,"logistic regression on 7 descriptors, P(BBB+) = 0.403"
+PTEN,capivasertib,small-molecule,0.341,0.041,0.641,predicted,3,CHEMBL2325741,JDUBGYFRJFOXQC-KRWDZBQOSA-N,"logistic regression on 7 descriptors, P(BBB+) = 0.341"
+ERBB2,neratinib,small-molecule,0.322,0.022,0.622,predicted,3,CHEMBL180022,JWNPDZNEKVCWMY-VQHVLOKHSA-N,"logistic regression on 7 descriptors, P(BBB+) = 0.322"
