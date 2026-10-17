@@ -1,6 +1,6 @@
 # CNS-reachability-aware target prioritization in HER2-positive breast cancer brain metastasis
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23436839.svg)](https://doi.org/10.5281/zenodo.23436839)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23436838.svg)](https://doi.org/10.5281/zenodo.23436838)
 
 Analysis archive for the manuscript **"Machine-Learning-Assisted, CNS-Reachability-Aware
 Prioritization of Therapeutic Targets in HER2-Positive Breast Cancer Brain Metastasis:
@@ -57,7 +57,8 @@ superseded figures are in the deviations log in `PROTOCOL.md` rather than delete
 
 ## Citing
 
-Archive DOI (all versions): [10.5281/zenodo.23436839](https://doi.org/10.5281/zenodo.23436839). See `CITATION.cff`.
+Archive DOI (all versions): [10.5281/zenodo.23436838](https://doi.org/10.5281/zenodo.23436838).
+The snapshot accompanying the manuscript is version 1.0.0, [10.5281/zenodo.23436839](https://doi.org/10.5281/zenodo.23436839). See `CITATION.cff`.
 Please cite both this archive and the paper it supports.
 
 ## Licence
